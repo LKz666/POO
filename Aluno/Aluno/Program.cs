@@ -20,7 +20,7 @@ namespace Aluno
             aluno.TerceiraNota = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Nota final: " + aluno.Resultado());
-            Console.WriteLine(aluno.ToString());
+            Console.WriteLine(aluno.ToString()); 
         }
     }
 }

@@ -6,7 +6,8 @@
         private double _valor;
         private int _quantidade;
 
-        public Estoque(string nome, double valor, int quantidade){
+        public Estoque(string nome, double valor, int quantidade)
+        {
             _nome = nome;
             _valor = valor;
             _quantidade = quantidade;
@@ -16,27 +17,33 @@
         // public double Valor;
         // public int Quantidade;
 
-        public string GetNome(){
+        public string GetNome()
+        {
             return _nome;
         }
 
-        public void SetNome(string nome){
+        public void SetNome(string nome)
+        {
             _nome = nome;
         }
 
-        public double GetValor(){
+        public double GetValor()
+        {
             return _valor;
         }
 
-        public void SetValor(double valor){
+        public void SetValor(double valor)
+        {
             _valor = valor;
         }
 
-        public int GetQuantidade(){
+        public int GetQuantidade()
+        {
             return _quantidade;
         }
 
-        public void SetQuantidade(int quantidade){
+        public void SetQuantidade(int quantidade)
+        {
             _quantidade = quantidade;
         }
 
@@ -46,13 +53,13 @@
             return _valor * _quantidade;
         }
 
-        public void AdicionarProduto(int quantidade) 
-        { 
+        public void AdicionarProduto(int quantidade)
+        {
             _quantidade += quantidade;
         }
 
-        public void RemoverProduto(int quantidade) 
-        { 
+        public void RemoverProduto(int quantidade)
+        {
             _quantidade -= quantidade;
         }
 

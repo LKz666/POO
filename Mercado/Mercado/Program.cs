@@ -6,17 +6,15 @@ namespace Mercado
     {
         static void Main(string[] args) 
         {
-            Estoque produto = new Estoque("Produto", 1500.00, 15);
+            Estoque produto = new Estoque("TV", 1500.00, 15);
 
-            Console.Write("Digite o nome do produto: ");
-            produto.Nome = Console.ReadLine();
+            produto.SetNome("TV 4K");
+            produto.SetValor(2000.00);
+            produto.SetQuantidade(10);
 
-            Console.Write("Digite a quantidade de produtos: ");
-            produto.Quantidade = int.Parse(Console.ReadLine());
-
-            Console.WriteLine(produto.Nome);
-            Console.WriteLine(produto.Valor);
-            Console.WriteLine(produto.Quantidade);
+            Console.WriteLine(produto.GetNome());
+            Console.WriteLine(produto.GetValor());
+            Console.WriteLine(produto.GetQuantidade());
 
             // Console.Write("Digite o nome do produto : ");
             // produto.Nome = Console.ReadLine();
