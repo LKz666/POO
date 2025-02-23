@@ -29,14 +29,14 @@ class Program {
         Console.WriteLine("Dados da conta: " + conta.ToString());
 
         Console.Write("Digite um valor para deposito: ");
-        double deposito = double.Parse(Console.ReadLine());
-        conta.DepositoConta(deposito);
+        double quantia = double.Parse(Console.ReadLine());
+        conta.DepositoConta(quantia);
 
         Console.WriteLine("Dados atualizados: " + conta.ToString());
 
         Console.Write("Digite um valor para saque: ");
-        double saque = double.Parse(Console.ReadLine());
-        conta.SaqueConta(saque);
+        quantia = double.Parse(Console.ReadLine());
+        conta.SaqueConta(quantia);
 
         Console.WriteLine("Dados atualizados: " + conta.ToString());
     }

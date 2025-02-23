@@ -23,14 +23,14 @@ namespace Encapsulamento
             SaldoConta = saldoConta;
         }
 
-        public void DepositoConta(double deposito)
+        public void DepositoConta(double quantia)
         {
-            SaldoConta += deposito;
+            SaldoConta += quantia;
         }
 
-        public void SaqueConta(double saque)
+        public void SaqueConta(double quantia)
         {
-            SaldoConta -= saque + 5.0;
+            SaldoConta -= quantia + 5.0;
         }
 
         public override string ToString()

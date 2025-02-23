@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\Encapsulamento\\Encapsulamento.csproj",
+      "projectUniqueName": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\Encapsulamento.csproj",
       "projectName": "Encapsulamento",
-      "projectPath": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\Encapsulamento\\Encapsulamento.csproj",
+      "projectPath": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\Encapsulamento.csproj",
       "packagesPath": "C:\\Users\\lukin\\.nuget\\packages\\",
-      "outputPath": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\Encapsulamento\\obj\\",
+      "outputPath": "D:\\Meu Pc\\Estudos\\Programacao\\POO\\Encapsulamento\\Encapsulamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
